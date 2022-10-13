@@ -1,0 +1,24 @@
+nav{
+    height: 90px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .logo{
+        width: 92px;
+        height: 42;
+    }
+
+    .links{
+        height: 42px;
+        width: 350px;
+        color: black;
+       
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

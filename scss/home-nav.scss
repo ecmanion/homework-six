@@ -1,0 +1,30 @@
+.home-nav{
+    height: 90px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 3px white;
+
+    position: relative;
+    z-index: 3;
+    .logo{
+        width: 92px;
+        height: 42;
+        z-index: 2;
+        padding-left: 10px;
+    }
+
+    .links{
+        height: 42px;
+        width: 370px;
+        color:white;
+        z-index: 2;
+       
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
